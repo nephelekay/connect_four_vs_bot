@@ -70,9 +70,12 @@ Level 13–20:
 
 COMPILATION INSTRUCTIONS
 ---------------
-Using a standard g++ compiler and enter the command: 
+Using a standard g++ compiler, enter the follwing command: 
+
 g++ main.cpp ConnectFour.cpp BotLogic.cpp -o connectfour
+
 Then run the program by entering: 
+
 ./connectfour
 
 
