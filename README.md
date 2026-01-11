@@ -27,8 +27,11 @@ FEATURES
 PROJECT STRUCTURE
 -----------------
 main.cpp
+
 ConnectFour.h
+
 ConnectFour.cpp
+
 BotLogic.cpp
 
 
