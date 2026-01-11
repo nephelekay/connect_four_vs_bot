@@ -21,7 +21,6 @@ FEATURES
 - AI bot with 20 difficulty levels
 - Lives-based progression system
 - Deterministic, gravity-aware move validation
-- Preconfigured build and debug support (VS Code)
 
 
 PROJECT STRUCTURE
@@ -30,9 +29,6 @@ main.cpp
 ConnectFour.h
 ConnectFour.cpp
 BotLogic.cpp
-.vscode/
-  launch.json
-  tasks.json
 
 
 AI DESIGN
@@ -67,30 +63,13 @@ Level 9–12:
 Level 13–20:
 - Optimized ordering of full blocking and offensive strategies
 
+
 COMPILATION INSTRUCTIONS
 ---------------
-This project includes a .vscode configuration for one-click build and debug
-for greater ease:
-1. tasks.json:
-- Builds the project using g++
-2. launch.json:
-- Runs and debugs the executable using gdb
-- Automatically builds before launching
-
-Note that the use of these files is optional, as project can be run as 
-follows:
-Using a standard g++ compiler and entering the command: 
+Using a standard g++ compiler and enter the command: 
 g++ main.cpp ConnectFour.cpp BotLogic.cpp -o connectfour
-Then running the program by entering: 
+Then run the program by entering: 
 ./connectfour
-
-CONTROLS
---------
-- Enter 1–7 to place a piece in a column
-- Enter -1 to exit the current round
-- Menu options:
-  1 = Play
-  2 = Exit
 
 
 DESIGN HIGHLIGHTS
@@ -101,7 +80,7 @@ DESIGN HIGHLIGHTS
 - Readable and maintainable C++ codebase
 - Deterministic AI suitable for debugging and extension
   
-  
+
 AUTHOR
 ------
 Nephele Kay
