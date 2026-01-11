@@ -1,4 +1,5 @@
 CONNECT FOUR VS AI BOT (C++)
+----------------------------
 
 A console-based Connect Four game written in C++, featuring a human player
 competing against an AI bot with scalable difficulty. The bot uses heuristic-
